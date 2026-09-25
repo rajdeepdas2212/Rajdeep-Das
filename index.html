@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rajdeep Das — software engineer and web developer.">
+  <title>Rajdeep Das</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="active" href="#top">Home</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-trigger" id="about-menu-trigger" type="button"
+                aria-expanded="false" aria-controls="about-menu">
+          About
+        </button>
+
+        <div class="nav-dropdown-menu" id="about-menu" role="menu" aria-label="About navigation">
+          <a href="index.html#about" role="menuitem">About</a>
+          <a href="connect_with_me.html#top" role="menuitem">Connect with Me</a>
+          <a href="contact.html#top" role="menuitem">Contact</a>
+          <a href="PrivatePolicy.html#top" role="menuitem">Privacy Policy</a>
+          <a href="terms.html#top" role="menuitem">Terms of Use</a>
+        </div>
+      </div>
+    </nav>
+
+    <a class="wordmark" href="#top" aria-label="Rajdeep Das home">Rajdeep Das</a>
+
+    <button class="menu-btn" id="menu-btn" type="button"
+            aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+  
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <a href="#top" class="mobile-main-link">Home</a>
+      <button class="mobile-about-toggle" id="mobile-about-toggle" type="button"
+              aria-expanded="false" aria-controls="mobile-about-menu">
+        <span>About</span><span class="mobile-arrow" aria-hidden="true">›</span>
+      </button>
+
+      <div class="mobile-about-menu" id="mobile-about-menu" aria-hidden="true">
+        <button class="mobile-back" id="mobile-back" type="button">
+          <span aria-hidden="true">‹</span> Back
+        </button>
+        <a href="index.html#about">About</a>
+        <a href="connect_with_me.html#top">Connect with Me</a>
+        <a href="contact.html#top">Contact</a>
+        <a href="PrivatePolicy.html#top">Privacy Policy</a>
+        <a href="terms.html#top">Terms of Use</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">· Web developer</p>
+        <h1 id="hero-title" class="reveal">Code<br>is my<br>craft</h1>
+      </div>
+    </section>
+  
+    <section class="intro section-shell" id="about">
+      <div class="intro-copy">
+        <h2 class="reveal">Hi, I'm Rajdeep Das.</h2>
+        <p class="reveal">I'm a web developer based in Kolkata, with a love for building clean interfaces, solving
+          problems and picking apart how things work.</p>
+        <p class="reveal">This site is my little corner of the internet — a place where everything I build and share lives
+          in one spot. Whether I'm shipping a new project, recording a tutorial or debugging, you'll find it all here.</p>
+        <p class="reveal">I enjoy clean code, good design and teaching what I learn along the way. Some days I'm building,
+          other days I'm filming, and most days I'm somewhere in between.</p>
+        <p class="signoff reveal">Welcome to my world. 🖤</p>
+        <a href="connect_with_me.html" class="outline-button reveal">Enter my world</a>
+      </div>
+    </section>
+  
+    <section class="about-more section-shell" id="connect">
+      <div class="section-heading">
+        <h2 class="reveal">A little about me</h2>
+      </div>
+      <div class="about-grid">
+        <p class="reveal">Outside of writing code, I'm happiest learning something new, watching a project come together,
+          or helping someone else figure theirs out. I like building things that are simple to use and satisfying to look
+          at.</p>
+        <p class="reveal">This space can grow with me — projects, experiments, tutorials, notes, photography and whatever
+          I'm currently working on.</p>
+      </div>
+    </section>
+  
+    <section class="ticker" aria-label="Site message">
+      <div class="ticker-track">
+        <span>Build • Learn • Create • Share • Code • Design • Build • Learn • Create • Share •</span>
+        <span aria-hidden="true">Build • Learn • Create • Share • Code • Design • Build • Learn • Create • Share •</span>
+      </div>
+    </section>
+  
+    <section class="connect section-shell" id="contact">
+      <div class="section-heading">
+        <h2 class="reveal">Let's connect.</h2>
+      </div>
+      <div class="connect-content">
+        <p class="reveal">Want to follow what I'm building or get in touch? Add your real social links and email below.
+        </p>
+        <div class="link-list">
+          <a class="reveal" href="mailto:rajdeepdas2212@gmail.com?subject=Hello%20Rajdeep&body=Hi%20Rajdeep,">
+            Email <span>↗</span>
+          </a>
+          <a class="reveal" href="https://github.com/rajdeepdas2212" target="_blank" rel="noopener noreferrer">
+            GitHub <span>↗</span>
+          </a>
+          <a class="reveal" href="https://www.linkedin.com/in/codewithrajdeep2212/" target="_blank"
+            rel="noopener noreferrer">
+            LinkedIn <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer reveal">
+  <div class="footer-inner">
+    <span>© 2026 Rajdeep Das. All Rights Reserved.</span>
+    <span class="separator">|</span>
+    <a href="PrivatePolicy.html#top">Privacy Policy</a>
+    <span class="separator">|</span>
+    <a href="terms.html">Terms of Use</a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
